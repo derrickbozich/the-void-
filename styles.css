@@ -1,0 +1,142 @@
+/* css variables */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+  --primary: #eaeaea;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104,104,104,0.8);
+}
+
+html{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark);
+  background: rgb(250,250,248);
+}
+
+.wrapper {
+  width: 960px;
+
+  margin: 0 auto;
+  display: grid;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+  background: red;
+  padding: 2%;
+  min-width: 96%;
+}
+
+.content > div {
+
+
+
+
+}
+
+.nested > p {
+  text-align: justify;
+    text-justify: auto;
+
+}
+
+.main-nav {
+  background: black;
+
+}
+
+.main-nav ul {
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  list-style: none;
+  justify-items: center;
+
+
+}
+
+img {
+  min-width: 100%;
+}
+
+.showcase {
+display: grid;
+grid-template-columns: 1fr;
+justify-items:center;
+grid-gap: 20px;
+
+}
+
+.header h1 {
+
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.content {
+
+}
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
+.box {
+
+  text-align: center;
+  padding: 1.5rem 2rem;
+  border: 2px black solid;
+  border-radius: 1px;
+
+
+}
+
+section {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.wrapper > div {
+  padding: 1em;
+}
+
+/* footer */
+
+footer {
+
+  display: grid;
+
+  grid-template-columns: repeat(3,1fr);
+  background: black;
+  color: white;
+
+  margin-top: 1em;
+
+
+
+
+}
+
+footer > div {
+  border-right: 1px white solid;
+  padding: 1em;
+  margin: 1em;
+
+
+}
