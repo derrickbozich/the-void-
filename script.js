@@ -1,5 +1,5 @@
 
-let navItems = document.getElementsByClassName('nav');
+let navItems = document.getElementsByClassName('main-nav');
 let active = false;
 
 

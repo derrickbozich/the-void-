@@ -166,6 +166,7 @@ footer > div {
     grid-template-columns: 1fr;
     font-size: 2em;
     text-align: justify;
+    display: none;
 
 
   }
@@ -211,8 +212,8 @@ footer > div {
     display: block;
   }
 
-  .responsive > li {
-    display: none;
+  .responsive > ul {
+    display: block;
   }
 
 
